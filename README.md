@@ -9,6 +9,7 @@ Learning Notes
     -  implicit reference
 
 
+
     while (!understand){
         String url = "https://youtu.be/TN-CGfzvBhc?t=799";
 
