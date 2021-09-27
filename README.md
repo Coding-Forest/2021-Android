@@ -6,8 +6,8 @@ Learning forest for Android application development
 
 Learning Notes
 
-`while (!understand){
-  String url = "https://youtu.be/TN-CGfzvBhc?t=799";
+`while (!understand){`
+  `String url = "https://youtu.be/TN-CGfzvBhc?t=799";`
   
-  tutorial.watch(url);
- }`
+  `tutorial.watch(url);`
+ `}`
