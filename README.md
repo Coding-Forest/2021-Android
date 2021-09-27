@@ -6,7 +6,7 @@ Learning forest for Android application development
 
 Learning Notes
 - Keywords
-    -  implicit reference
+    -  implicit reference    
 
 
 
