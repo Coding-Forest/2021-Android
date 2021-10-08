@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#fec"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/IVtop"
+        android:src="@drawable/ic_top_vector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/IVheart"
+            android:src="@drawable/ic_heart"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:adjustViewBounds="true"
+            app:tint="#D75A4A" />
+
+        <TextView
+            android:id="@+id/TVappname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="#D75A4A"
+            android:textSize="48sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/IVheartbeat"
+            android:src="@drawable/heart_beat"
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/IVbottom"
+        android:src="@drawable/ic_bottom_vector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:adjustViewBounds="true"
+         />
+
+</RelativeLayout>
