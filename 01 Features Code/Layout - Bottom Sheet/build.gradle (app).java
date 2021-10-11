@@ -1,3 +1,8 @@
+// Plus dependency configuration, I had ran into a few more touble so I to do the following:
+// + [File] - [Project Structure] >> [Modules] - [Properties] - Set [Compile Sdk Version] to 28 (API 28: Android 9.0 (Pie))
+// This worked for me.
+// References https://stackoverflow.com/questions/49280632/error9-5-error-resource-androidattr-dialogcornerradius-not-found
+
 plugins {
     id 'com.android.application'
 }
