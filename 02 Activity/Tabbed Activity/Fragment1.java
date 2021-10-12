@@ -17,3 +17,12 @@ public class Fragment1 extends Fragment {
         return inflater.inflate(R.layout.fragment1_layout, container, false);
     }
 }
+
+/*
+inflater – The LayoutInflater object that can be used to inflate any views in the fragment.
+
+@Nullable
+ViewGroup container
+container – If non-null, this is the parent view that the fragment's UI should be attached to. 
+The fragment should not add the view itself, but this can be used to generate the LayoutParams of the view.
+*/
